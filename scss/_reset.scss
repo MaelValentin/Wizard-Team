@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101010;
+}
+body::-webkit-scrollbar {
+    width: 9px; /* width of the entire scrollbar */
+    height: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: #101010; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #2098d1; /* color of the scroll thumb */
+    border-radius: 5px; /* roundness of the scroll thumb */
+    border: 3px solid #101010; /* creates padding around scroll thumb */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header,
+.main-section {
+    background-size: cover;
+    background-position: center;
+}
